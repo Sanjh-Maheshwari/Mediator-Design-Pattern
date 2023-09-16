@@ -17,4 +17,4 @@ Here we take the example of booking a cab and assigning it to a passenger. We ca
 
 In the design, the mediator class is utilized in unit tests directly, the collegue1 : Taxi and collegue2 : Passenger communicates with each other through mediator hence mediator can call and access Taxi and Passenger class functions. 
 
-![](image/software.png)
+![](image/uml.png)
