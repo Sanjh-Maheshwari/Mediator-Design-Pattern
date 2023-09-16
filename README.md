@@ -13,3 +13,8 @@ In this case, I have tried to demonstrate the use of the Mediator design pattern
 
 Here we take the example of booking a cab and assigning it to a passenger. We calculate the shortest distance of the cab from the person and then assign the nearest cab to the person. However, in my case, for simplicity I have taken the distance in miles although the better way will be to consider the location using latitudes and longitudes. We have 2 classes taxi and passenger that have to communicate with each other using a mediator.
 
+# Design  
+
+In the design, the mediator class is utilized in unit tests directly, the collegue1 : Taxi and collegue2 : Passenger communicates with each other through mediator hence mediator can call and access Taxi and Passenger class functions. 
+
+![](image/software.png)
